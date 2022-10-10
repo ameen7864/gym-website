@@ -1,0 +1,45 @@
+.programs{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0 2rem;
+}
+.programs-header{
+    display: flex;
+    gap: 4rem;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    color: white;
+    font-style: italic;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+.program-categories{
+    display: flex;
+    gap: 1rem;
+}
+.category{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    gap: 1rem;
+    color: white;
+     justify-content: space-between;  
+     width:75rem;
+     height: 15rem;
+}
+.category>span{
+    display: flex;
+    background-color: gray;
+    width: 15rem;
+    justify-content: center;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.category>span:hover{
+    background: linear-gradient(to right, #f84835, #f5af19);
+    cursor: pointer;
+}
